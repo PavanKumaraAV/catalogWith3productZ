@@ -149,7 +149,7 @@ calculateTotal = (productQuantities, giftWrapQuantities) => {
     };
 }
 
-// Example usage or 
+// Example usage
 const productQuantities = [1, 1, 1]; // Enter the quantity for each product
 const giftWrapQuantities = [20, 10, 0]; // Enter the quantity to be wrapped as gifts (0 if not wrapped)
 
@@ -167,7 +167,6 @@ for (let i = 0; i < products.length; i++) {
 console.log("\nSubtotal:", result.subtotal);
 console.log("Discount Applied:", result.discount > 0 ? result.discountName : result.discountName , "- Amount: $", result.discount);
 console.log("Shipping Fee:", "$" + result.shippingFee);
-
 console.log("Gift Wrap Fee:", "$" + result.giftWrapFee);
 console.log("Total:", "$" + result.total);
 
